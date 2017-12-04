@@ -10,3 +10,13 @@ function textMessage(sender, sms, receiver) {
 }
 
 console.log(textMessage('janek', '       Nie mogę teraz rozmawiać. Oddzwonię po spotkaniu       ', 'FRANEK'));
+
+// 2. Napisz funkcję, która przyjmuje dwa parametry - firstName oraz lastName,
+// a następnie zwraca inicjały rozdzielone kropką, zwrócony string powinien składać się z wielkich liter.
+// Przykładowy wynik dla następujących zmiennych: var firstName = 'john'; var lastName = 'doe';
+
+function getInitials(firstName, lastName) {
+    return firstName.charAt(0).toUpperCase() + '.' + lastName.charAt(0).toUpperCase()
+}
+
+console.log(getInitials('john', 'doe'));
