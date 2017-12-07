@@ -20,3 +20,27 @@ function getInitials(firstName, lastName) {
 }
 
 console.log(getInitials('john', 'doe'));
+
+// 3. Napisz funkcję, która generuje losową liczbę, zaokrągloną do dwóch liczb po przecinku,
+// a następnie zwraca stringa "Twoja szczęśliwa liczba to: TUTAJ_TA_LOSOWA_LICZBA"
+
+function randomLuckyNumber () {
+    return 'Twoja szczęśliwa liczba to: ' + (Math.round(Math.random()*100)/100)
+}
+console.log(randomLuckyNumber());
+
+// 4. Napraw bugi we funkcji oraz popraw formatowanie nazewnictwa. Funkcja powinna zwrocić sumę tip i price
+//
+// Function get_dinner_price {
+//     tip: '20';
+//     tip + price;
+//     var price = 100;
+// }
+
+function getDinnerPrice() {
+
+    var price = 100,
+        tip = 20;
+        return price + tip;
+}
+console.log(getDinnerPrice());
