@@ -1,4 +1,4 @@
-// 1. 
+// task 1.
 
 function textMessage(sender, sms, receiver) {
     return '(FROM:' + sender.charAt(0).toUpperCase()
@@ -9,7 +9,7 @@ function textMessage(sender, sms, receiver) {
 
 console.log(textMessage('janek', '       Nie mogę teraz rozmawiać. Oddzwonię po spotkaniu       ', 'FRANEK'));
 
-// 2.
+// task 2.
 
 function getInitials(firstName, lastName) {
     return firstName.charAt(0).toUpperCase() + '.' + lastName.charAt(0).toUpperCase()
@@ -17,14 +17,14 @@ function getInitials(firstName, lastName) {
 
 console.log(getInitials('john', 'doe'));
 
-// 3.
+// task 3.
 
 function randomLuckyNumber () {
     return 'Twoja szczęśliwa liczba to: ' + (Math.random()*100).toFixed(2);
 }
 console.log(randomLuckyNumber());
 
-// 4.
+// task 4.
 
 function getDinnerPrice() {
 
